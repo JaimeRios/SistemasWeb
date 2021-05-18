@@ -76,7 +76,12 @@ namespace SistemasWeb.Controllers
             return View(model);
         }
 
-
+        /// <summary>
+        /// pruebas
+        /// </summary>
+        /// <param name="cursoID"></param>
+        /// <param name="vista"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Obtener(int cursoID, int vista)
         {
